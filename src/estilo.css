@@ -1,0 +1,50 @@
+html,
+body {
+    font-family: sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url("src/fondo2.png");
+    background-attachment: fixed;
+    overflow: hidden;
+}
+nav.navbar {
+    background-color: rgb(80, 185, 255);
+}
+nav.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav.navbar ul li{
+    padding: 1em;
+}
+nav.navbar ul li a {
+    color: #000;
+    opacity: .7;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav.navbar ul li a:hover {
+    opacity: 1;
+}
+.container {
+    padding: 1em;
+    margin-bottom: 25vh;
+}
+.container .title {
+    font-size: 2.5em;
+    color: #FFF;
+    text-align: center;
+    transition: all .5s;
+}
+.container .title:hover {
+    transform: scale(1.2);
+}
+.container .subtitle {
+    font-size: 1em;
+    color: #FFF;
+    text-align: center;
+}
