@@ -8,6 +8,7 @@ body {
 }
 nav.navbar {
     background-color: rgb(80, 185, 255);
+    position: fixed;
 }
 nav.navbar ul {
     display: flex;
